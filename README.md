@@ -34,7 +34,7 @@ call `log()`, it:
 
 Meanwhile, in the `LogFast` thread, it will flush the logs to the file as fast
 as it can, and then go back to sleep until new log messages arrive. This
-effectively parallises the log work with your main thread. Neat!
+effectively parallelises the log writing with your main thread. Neat!
 
 # SUPPORT
 

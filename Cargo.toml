@@ -1,6 +1,6 @@
 [package]
 name        = "logfast"
-version     = "0.1.0"
+version     = "0.1.1"
 description = "Insanely fast logging with a simple interface"
 authors = ["alfie@alfie.wtf"]
 
