@@ -1,0 +1,14 @@
+[package]
+name = "logfast"
+version = "0.1.0"
+authors = ["alfie@alfie.wtf"]
+edition = "2018"
+
+documentation = "http://docs.rs/logfast/"
+homepage      = "https://crates.io/crates/logfast"
+repository    = "https://gitlab.com/alfiedotwtf/logfast"
+readme        = "README.md"
+
+[dependencies]
+chrono = "0.4.10"
+die    = "0.2.0"
