@@ -4,16 +4,13 @@
 //!
 //! ```ignore
 //! use logfast::LogFast;
-//! 
+//!
 //! fn main() {
-//!   let mut lf = LogFast::new("my.log", 100).unwrap();
-//! 
-//!   ...
-//! 
+//!   let buffer_size = 100;
+//!   let mut lf = LogFast::new("my.log", buffer_size).unwrap();
+//!
 //!   lf.log("Here's a test log line");
 //!   lf.log("And here's another");
-//! 
-//!   ...
 //! }
 //! ```
 
@@ -46,7 +43,8 @@ impl LogFast {
     /// # Example
     ///
     /// ```ignore
-    /// let lf = match LogFast::new("my.log", 100).unwrap();
+    /// let buffer_size = 100;
+    /// let lf = match LogFast::new("my.log", buffer_size).unwrap();
     /// ```
     pub fn new(filename: &str, buffer_size: usize) -> Result<LogFast, String> {
         if buffer_size == 0 {
