@@ -25,7 +25,7 @@ use std::thread;
 
 /// Holds the LogFast housekeeping
 pub struct LogFast {
-    /// filename that the LogFast thread is writing to 
+    /// filename that the LogFast thread is writing to
     pub filename: String,
     src: Option<SyncSender<String>>,
     barrier: Arc<Barrier>,
@@ -74,10 +74,10 @@ impl LogFast {
             })
         };
 
-        Ok(LogFast{
+        Ok(LogFast {
             filename: filename.to_string(),
             src: Some(src),
-            barrier: barrier,
+            barrier,
         })
     }
 
