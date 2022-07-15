@@ -1,6 +1,6 @@
 [package]
 name        = "logfast"
-version     = "1.1.5"
+version     = "1.1.7"
 description = "Insanely fast logging with a simple interface"
 authors     = ["alfie@alfie.wtf"]
 
@@ -12,5 +12,5 @@ license       = "GPL-2.0-only"
 edition       = "2018"
 
 [dependencies]
-chrono = "=0.4.19"
-die    = "=0.2.0"
+chrono = "0.4.19"
+die    = "0.2.0"
