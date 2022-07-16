@@ -1,10 +1,10 @@
 [package]
 name        = "logfast"
-version     = "1.1.7"
+version     = "1.1.8"
 description = "Insanely fast logging with a simple interface"
 authors     = ["alfie@alfie.wtf"]
 
-documentation = "http://docs.rs/logfast/"
+documentation = "https://docs.rs/logfast/"
 homepage      = "https://crates.io/crates/logfast"
 repository    = "https://github.com/alfiedotwtf/logfast"
 readme        = "README.md"
